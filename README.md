@@ -42,7 +42,7 @@ The following graphs illustrate the framework of `FedTd3` and our proposed metho
 
 <img src="README.assets/sc1.png" alt="sc" style="zoom: 33%;" />
 
-![Screen Shot 2023-04-17 at 16.06.29](README.assets/Screen Shot 2023-04-17 at 16.06.29.png)
+<img src="README.assets/Fig3.png" alt=f3 style="zoom: 70%;" />
 
 
 
