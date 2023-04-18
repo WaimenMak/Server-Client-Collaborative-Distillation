@@ -145,7 +145,7 @@ dist_rep2 = torch.from_numpy(
 
 
 
-#### TD3 implementation:
+#### TD3 Implementation:
 
 The core code of the implementation of Twin Delayed DDPG is in the file `dist_td3.py` and `fedregtd3.py`. These file contain the `actor class` and the `critic class` which are the key component of the TD3 framework.
 
@@ -180,4 +180,16 @@ Another method to simulate heterogeneous environments is to add noise to the inp
 $$
 <s,a> + N(\mu_i, \sigma)
 $$
+
+### Run the Model
+
+```shell
+# run FedAvg, FedProx and Moon
+python FedTD3_reg.py # FedAvg
+python FedTD3_reg.py --beta=0.01 # FedProx
+python FedTD3_reg.py --mu=0.01 # Moon
+
+# run SCCD
+python SCCD.py
+```
 
