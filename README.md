@@ -193,3 +193,17 @@ python FedTD3_reg.py --mu=0.01 # Moon
 python SCCD.py
 ```
 
+### Cite
+
+```bibtex
+@article{mai2023server,
+  title={Server-client collaborative distillation for federated reinforcement learning},
+  author={Mai, Weiming and Yao, Jiangchao and Chen, Gong and Zhang, Ya and Cheung, Yiu-Ming and Han, Bo},
+  journal={ACM Transactions on Knowledge Discovery from Data},
+  volume={18},
+  number={1},
+  pages={1--22},
+  year={2023},
+  publisher={ACM New York, NY}
+}
+```
